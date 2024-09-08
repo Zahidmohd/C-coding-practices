@@ -17,6 +17,7 @@ int main(){
     students s4(101,20);
     s4.age = 20;
     s4.display();
+    cout << s4.getTotalStudents<< endl;
 
     // name [3] = 'e';
     // student s2(24, name);
