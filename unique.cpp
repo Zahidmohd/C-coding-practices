@@ -7,23 +7,23 @@ int unique(int arr[],int n){
         xOr ^= arr[i];
     }
     return xOr;
-   /* for (int i = 0; i < n; i++)
-    {
-    bool found= false;
-    for (int j = 0; j < n; j++)
-    {
-           if (arr[i] == arr[j]&& i!=j)
-           {
-            found = true;
-            break;
-           }
-    }
-           if (!found)
-           {
-            return arr[i];
-           }
+    // for (int i = 0; i < n; i++)
+    // {
+    // bool found= false;
+    // for (int j = 0; j < n; j++)
+    // {
+    //        if (arr[i] == arr[j]&& i!=j)
+    //        {
+    //         found = true;
+    //         break;
+    //        }
+    // }
+    //        if (!found)
+    //        {
+    //         return arr[i];
+    //        }
            
-    }*/
+    // }
     }
     
 int main(){
